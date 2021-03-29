@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user gender="boy">
+        <name>Yang JiaJia</name>
+        <birthday>1999.09.09</birthday>
+        <telphone>18212215795</telphone>
+    </user>
+    <user gender="girl">
+        <name>Sun YingYin</name>
+        <birthday>1998.09.12</birthday>
+        <telphone>13567403480</telphone>
+    </user>
+</users>
