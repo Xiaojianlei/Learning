@@ -39,6 +39,14 @@ public class Test {
         }
     }
 
+    private void up(int[] array , int i){
+        int parent = (i - 1) /2;
+        if(parent >=0 && array[parent] < array[i]){
+            swap(array , parent , i);
+            up(array , parent);
+        }
+    }
+
     //测试入口
     public static void main(String[] args) {
         int a[]={1,2,1,5,5,2,2,8,7,9};
