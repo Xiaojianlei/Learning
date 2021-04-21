@@ -27,9 +27,11 @@ public class Test {
 
     //测试入口
     public static void main(String[] args) {
-        int a[]={1,4,3,3,2,2,3,-1,1};
-        new Test().sort(a);
-        for(int i: a) System.out.println(i);
+//        int a[]={1,4,3,3,2,2,3,-1,1};
+//        new Test().sort(a);
+//        for(int i: a) System.out.println(i);
+        int h =0b111;
+        System.out.println(h  ^ (h >>> 16));
     }
 
 
